@@ -4,7 +4,7 @@ const Todoitem=(Props)=>{
     return(<table className="todo-item">
  <tbody>
     <tr>
-      <input className="Taskinp" type="text" value="ggtf" /> 
+      <input className="Taskinp" type="text" value={Props.text} /> 
       <td className="actions">
       <button className="btn">Edit </button> 
       <button className="btn" >Delete</button>
