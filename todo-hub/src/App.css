@@ -37,21 +37,37 @@
   }
 }
 
+.Taskinp{
+  margin: 10px;
+  padding: 10px; 
+  border-radius: 10px;
+  border: none;
+  color: white;
+  width: 200px;
+  background-color: rgb(117, 117, 199);
+}
+::placeholder {
+  color: white;
+  opacity: 1; 
+}
+
 .todo-list{
   width: 50%;
   margin: 10px;
   padding: 10px;
   background-color: rgb(209, 205, 235);
   margin:30px auto;
-
 }
-.btnadd{
+
+.btn{
   border-radius: 10px;
   border: none;
   color: white;
   background-color: rgb(117, 117, 199);
   padding: 10px;
+  margin-left: 10px;
 }
+
 .todoitems{
   width: 70%;
   padding: 20px;
@@ -60,14 +76,13 @@
   margin:20px auto;
 }
 .todo-item {
-  display: flex;
-  justify-content: space-between;
+  display: table;
   margin-bottom: 8px;
   background-color: white;
   border-radius: 10px;
   padding: 10px;
  }
- .todo-item p {
-  color: #888;
-  text-decoration: line-through;
- }
+.actions{
+  margin: 10px;
+  padding: 10px;
+}
