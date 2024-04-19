@@ -1,6 +1,10 @@
 import React from "react";
 
 const Todoitem=(Props)=>{
+
+ // const deleteTask = (id) => setTasks(tasks.filter((t) => t.id !== id));
+
+
     return(<table className="todo-item">
  <tbody>
     <tr>
